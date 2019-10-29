@@ -1,0 +1,14 @@
+<div *ngFor="let planet of planets; let i = index">
+  <mat-card id="mat-card" (click)="setIndex(i)">
+    <mat-card-header>
+      <div mat-card-avatar id="mat-card-avatar"></div>
+      <mat-card-content>
+        {{ planet.name }}<br />
+        population:<strong> {{ planet.population }}</strong>
+        <br />
+        diameter:<strong> {{ planet.diameter }}</strong>
+      </mat-card-content>
+      <mat-icon id="mat-icon">keyboard_arrow_right</mat-icon>
+    </mat-card-header>
+  </mat-card>
+</div>

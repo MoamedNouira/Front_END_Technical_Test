@@ -1,0 +1,25 @@
+<button mat-button (click)="goBack()">
+  <mat-icon>chevron_left</mat-icon>
+  GO BACK
+</button>
+
+<mat-card id="mat-card">
+  <mat-card-header>
+    <div mat-card-avatar id="mat-card-avatar"></div>
+
+    <mat-card-content>
+      {{ planet.name }}<br />
+      population:<strong> {{ planet.population }}</strong>
+      <br />
+      diameter:<strong> {{ planet.diameter }}</strong> <br /><br />
+      Rotation period: {{ planet.rotation_period }}<br />
+      Orbital period: {{ planet.orbital_period }}<br />
+      diameter: {{ planet.diameter }}<br />
+      climate: {{ planet.climate }}<br />
+      gravity: {{ planet.gravity }}<br />
+      terrain: {{ planet.terrain }}<br />
+      surface_water: {{ planet.surface_water }}<br />
+      population: {{ planet.population }}<br />
+    </mat-card-content>
+  </mat-card-header>
+</mat-card>
