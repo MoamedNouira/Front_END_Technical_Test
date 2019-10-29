@@ -3,7 +3,7 @@
 2 hour
 ## What would you add to your solution if you had more time?
 
-	use: 
+use: 
 	- model object
 	- state management (ngrx)	
 
