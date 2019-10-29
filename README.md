@@ -1,6 +1,6 @@
 # How long did you spend on the coding test?
 
-1 hours
+1 hour
 ## What would you add to your solution if you had more time?
 
 	use: 
