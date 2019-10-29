@@ -5,7 +5,7 @@
 
 use: 
 - model object
-	- state management (ngrx)	
+- state management (ngrx)	
 
 ## How would you improve the app you just made ?
 
